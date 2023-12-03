@@ -1,6 +1,6 @@
 document.getElementById("header").innerHTML=` <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #FFACB7;">
 <div class="container">
-  <a class="navbar-brand" href="https://mmines32.github.io/ProyectoHTMLCodoACodo1"> <img width="120" height="80" src="/img/logoCaC2.png"></a>
+  <a class="navbar-brand" href="https://mmines32.github.io/ProyectoHTMLCodoACodo1"> <img width="120" height="80" src="./img/logoCaC2.png"></a>
   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
   data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
   aria-expanded="false" aria-label="Toggle navigation">
