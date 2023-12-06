@@ -35,11 +35,20 @@ const url = this.url+'/' + producto;
 var options = {
 method: 'DELETE',
 }
+
 fetch(url, options)
 .then(res => res.text()) // or res.json()
 .then(res => {
-location.reload();
+location.reload()
+alert("Registro eliminado");
+
 })
+.catch(err => {
+console.error(err);
+alert("Error al eliminar")
+
+})
+
 },
 grabar(){
 let producto = {
@@ -59,7 +68,7 @@ redirect: 'follow'
 fetch(this.url, options)
 .then(function () {
 alert("Registro grabado")
-window.location.href = "./producto.html";
+window.location.href = "./index.html";
 })
 .catch(err => {
 console.error(err);
